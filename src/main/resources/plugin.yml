@@ -1,0 +1,12 @@
+name: VeinDebris
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  veinbook:
+    description: Gives a book for choosing vein miner blocks.
+    usage: /veinbook
+  veindecay:
+    description: Sets the decay chance for a block category.
+    usage: /veindecay <category> <percent>
+    aliases: [decay]
